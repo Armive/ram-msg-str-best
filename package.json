@@ -1,0 +1,20 @@
+{
+	"name": "ram-msg-str-best",
+	"version": "1.0.0",
+	"description": "It's a npm package that gives you random mesages",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/juan123sebastian/ram-msg-str-best"
+	},
+	"keywords": [],
+	"author": "Juan sebastian reyes vasquez <jsreyes979@gmail.com>",
+	"license": "MIT",
+	"bin": {
+		"ram-msg-str": "./bin/global.js"
+	},
+	"preferGlobal": true
+}
