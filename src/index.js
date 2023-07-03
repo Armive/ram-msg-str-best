@@ -13,9 +13,17 @@ const messages = [
     "Batman! (this commit has no parents)",
 ];
 
+const encouragementMessages = [
+    "You are a good programer ussing npm",
+    "where did you learn how to program",
+    "You're not a programer and you write code well",
+    "You have a salary increase"
+]
+
 const funnyCommit = () => {
     const message = messages[Math.floor(Math.random() * messages.length)];
-    console.log(`\x1b[34m${message}\x1b[89m`);
+    const encouragementMessage = encouragementMessages[Math.floor(Math.random() * encouragementMessages.length)];
+    console.log(`\x1b[34m${message} and ${encouragementMessage}\x1b[89m`);
 }
 
 module.exports = {
