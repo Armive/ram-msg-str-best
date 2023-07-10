@@ -1,6 +1,7 @@
 {
 	"name": "ram-msg-str-best",
-	"version": "1.1.0",
+	"type": "module",
+	"version": "1.2.0",
 	"description": "It's a npm package that gives you random mesages",
 	"main": "index.js",
 	"scripts": {
@@ -16,5 +17,8 @@
 	"bin": {
 		"ram-msg-str": "./bin/global.js"
 	},
-	"preferGlobal": true
+	"preferGlobal": true,
+	"dependencies": {
+		"ora": "^6.3.1"
+	}
 }

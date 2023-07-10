@@ -23,9 +23,9 @@ const encouragementMessages = [
 const funnyCommit = () => {
     const message = messages[Math.floor(Math.random() * messages.length)];
     const encouragementMessage = encouragementMessages[Math.floor(Math.random() * encouragementMessages.length)];
-    console.log(`\x1b[34m${message} and ${encouragementMessage}\x1b[89m`);
+    return (`\x1b[34m${message} and ${encouragementMessage}\x1b[89m`);
 }
 
-module.exports = {
+export {
     funnyCommit
 };
