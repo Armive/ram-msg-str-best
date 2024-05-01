@@ -1,7 +1,7 @@
 {
 	"name": "ram-msg-str-best",
 	"type": "module",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"description": "It's a npm package that gives you random mesages",
 	"main": "index.js",
 	"scripts": {
@@ -15,7 +15,7 @@
 	"author": "Juan sebastian reyes vasquez <jsreyes979@gmail.com>",
 	"license": "MIT",
 	"bin": {
-		"ram-msg-str": "./bin/global.js"
+		"random-msg": "./bin/global.js"
 	},
 	"preferGlobal": true,
 	"dependencies": {
