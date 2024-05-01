@@ -15,4 +15,4 @@ const interval = setInterval(() => {
         clearInterval(interval)
         console.log(message)
     }
-}, 100);
+}, 50);
