@@ -1,37 +1,42 @@
+
 # ram-msg-str-best
 
-This is package that gives you random messages and random encouragement messages
+This package generates random fun and encouraging messages at the tap of a key! Perfect for adding a bit of whimsy to your projects or just brightening someone's day.
 
-## Install
+## Installation
 
-Global 🌐
+Global:
 
 ```bash
 npm install -g ram-msg-str-best
 ```
-Proyect 📁
+
+Project:
 
 ```bash
-npm install  ram-msg-str-best
+npm install ram-msg-str-best
 ```
 
-# Usage
+## Usage
 
-Global 🌐
+Global:
 
 ```bash
 random-msg
 ```
-Proyect 📁
+
+In Your Project:
+
 ```js
-import { funnyCommit } from 'ram-msg-str-best'
+import { funnyCommit } from 'ram-msg-str-best';
 ```
 
-# Contributing
+## Contributing
 
-If someone wants to add or improve something, I invite you to collaborate directly in this repository: [ram-msg-str-best](https://github.com/GuauDev/ram-msg-str-best
-)
+If you'd like to add more messages or improve the package, feel free to collaborate directly in the repository:
 
-# License
+[ram-msg-str-best GitHub Repo](https://github.com/GuauDev/ram-msg-str-best)
 
-random-msg is released under the [MIT License](https://opensource.org/licenses/MIT).
+## License
+
+This package is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
